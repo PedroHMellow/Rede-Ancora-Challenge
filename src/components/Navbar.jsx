@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-24">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src="/src/img/REDE-ANCORA.png" alt="Rede Âncora" className="h-16" />
+              <img src="/public/img/REDE-ANCORA.png" alt="Rede Âncora" className="h-16" />
             </Link>
           </div>
           
