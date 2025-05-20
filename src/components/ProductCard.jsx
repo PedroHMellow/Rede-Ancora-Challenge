@@ -6,7 +6,7 @@ export default function ProductCard({ id, name, image, price, description }) {
     <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6">
       <div className="aspect-square relative overflow-hidden rounded-lg mb-6">
         <img 
-          src={`/src/img/${image}`} 
+          src={`/img/${image}`} 
           alt={name}
           className="w-full h-full object-contain transform hover:scale-105 transition-transform duration-300"
         />
