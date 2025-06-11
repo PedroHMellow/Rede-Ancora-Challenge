@@ -48,11 +48,11 @@ const products = [
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-ancora-blue mb-8 text-center md:text-left">
+    <div className="container mx-auto px-4 py-6 sm:py-8">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ancora-blue mb-6 sm:mb-8 text-center md:text-left">
         Catálogo de Peças Automotivas
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
         {products.map(product => (
           <ProductCard key={product.id} {...product} />
         ))}

@@ -20,10 +20,31 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Redes Sociais</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-ancora-red">Facebook</a>
-              <a href="#" className="text-gray-300 hover:text-ancora-red">Instagram</a>
-              <a href="#" className="text-gray-300 hover:text-ancora-red">LinkedIn</a>
+            <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+              <a 
+                href="https://www.facebook.com/RedeAncora/?locale=pt_BR" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-ancora-red transition-colors"
+              >
+                Facebook
+              </a>
+              <a 
+                href="https://www.instagram.com/redeancorabr/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-ancora-red transition-colors"
+              >
+                Instagram
+              </a>
+              <a 
+                href="https://www.linkedin.com/company/redeancorabr/?originalSubdomain=br" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-ancora-red transition-colors"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
         </div>
